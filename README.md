@@ -1,6 +1,6 @@
 ## Student Registration
 
-The goal with this sample project is to illustrate the basic data structures and algorithms in Java:
+The goal with this sample project is to illustrate the use of basic data structures and algorithms in Java:
 
 - [ ] Variables
 - [ ] Data types
@@ -23,3 +23,6 @@ The goal with this sample project is to illustrate the basic data structures and
 
 
 ## Areas of Improvement
+
+- Add GUI
+- Use a database
