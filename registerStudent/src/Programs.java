@@ -3,14 +3,14 @@ import java.util.ArrayList;
 
 public class Programs {
     private String programName;
-    private String programCode;
+    private int programCode;
     private int term;
 
     // Create array list object
     ArrayList<Student> studentsArrayList = new ArrayList<>();
 
     // Create a constructor of programs
-    public Programs(String _programName, String _programCode, int _term){
+    public Programs(String _programName, int _programCode, int _term){
         this.programName = _programName;
         this.programCode = _programCode;
         this.term = _term;
@@ -21,7 +21,7 @@ public class Programs {
         return programName;
     }
 
-    public String getProgramCode() {
+    public int getProgramCode() {
         return programCode;
     }
 
@@ -33,7 +33,7 @@ public class Programs {
         this.programName = programName;
     }
 
-    public void setProgramCode(String programCode) {
+    public void setProgramCode(int programCode) {
         this.programCode = programCode;
     }
 
