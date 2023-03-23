@@ -55,10 +55,12 @@ public class Programs {
 
     // Display program details
     public void displayProgramDetails() {
+        System.out.println();
+        System.out.println("Current programs seen below:");
         System.out.println(
             "Program Name: " + getProgramName() + 
-            " Program Code: " + getProgramCode() +
-            "Program Term: " + getTerm()
-        );
+            ", Program Code: " + getProgramCode() +
+            ", Program Term: " + getTerm()
+        );        
     }
 }
