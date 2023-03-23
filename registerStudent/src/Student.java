@@ -56,7 +56,7 @@ public class Student {
     }
     
     // Show student data
-    public  void display(){
+    public  void displayStudentDetails(){
         System.out.println(
             "First Name: " + getFirstName() + 
             " Last Name: " + getLastName() + 
