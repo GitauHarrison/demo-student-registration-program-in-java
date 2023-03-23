@@ -1,7 +1,7 @@
 // Define a student to register
 public class Student {
     // Class attributes used to define a student
-    private String first_name, last_name, program;
+    private String first_name, last_name, school;
     private int id;
     private double score;
 
@@ -18,8 +18,8 @@ public class Student {
         this.id = id;
     }
 
-    public void setProgram(String program) {
-        this.program = program;
+    public void setSchool(String school) {
+        this.school = school;
     }
     public void setScore(double score) {
         this.score = score;
@@ -37,19 +37,19 @@ public class Student {
         return id;
     }
 
-    public String getProgram() {
-        return program;
+    public String getSchool() {
+        return school;
     }
     public double getScore() {
         return score;
     }
 
     // Constructor that defines a student object
-    Student(String _first_name, String _last_name, int _id, String _program, double _score){
+    Student(String _first_name, String _last_name, int _id, String _school, double _score){
         this.first_name=_first_name;
         this.last_name=_last_name;
         this.id=_id;
-        this.program=_program;
+        this.school=_school;
         this.score=_score;
 
 
@@ -62,7 +62,7 @@ public class Student {
             " Last Name: " + getLastName() + 
             " ID: " + getId() + 
             " Score: "+ getScore() + 
-            " Program: "+ getProgram());;
+            " School: "+ getSchool());;
 
 
     }
